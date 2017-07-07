@@ -1,0 +1,241 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img{
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:before, .clearfix:after {
+  /*����������׼��д��*/
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1; /*IE/7/6*/  /*����IE6�µ�д��*/
+}
+/***************************导航********************************/
+/*.navbar{
+    width: 870px;
+    height: 60px;
+    background:rgba(255,255,255,.8);
+    margin-left:224px ;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0 0 10px 0px rgba(204,204,204,.5); 
+    position: absolute;
+    z-index: 9999;
+    margin-top: 20px;
+    border-color: none;
+}
+
+
+.container-fluid .navbar-header .navbar-brand{
+	margin-left: 50px;
+	background: url(../images/logo.png)no-repeat left 15px;
+	line-height: 30px;
+	padding-left: 40px;
+	font-size: 16px;
+	margin-right: 90px;	
+	color: black;
+}
+.container-fluid .navbar-header a:link{
+	color: #20c4f4;;
+	
+}
+.container-fluid .navbar-header .navbar .nav li+li{
+	padding-left: 62px;
+}
+#circle{
+	position: absolute;
+	right:-4px;
+	top:-3px;
+}
+#language{
+	float: right;
+	position: absolute;
+	right: 45px;
+	top: 20px;
+}*/
+/***************************导航结束********************************/
+
+
+
+
+/***************************导航********************************/
+.nav_T{
+    width: 870px;
+    height: 60px;
+    background-color: rgba(0,0,0,.5);
+    margin-left:224px ;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow:  0 0 10px 0px rgba(0,0,0,.5); 
+    position: absolute;
+    z-index: 9999;
+    margin-top: 20px;
+    border-color: none;
+    float: left;    
+}
+
+.nav_T .logo .navbar-logo{
+	margin-left: 50px;
+	background: url(../images/logo.png)no-repeat left 15px;
+	line-height: 60px;
+	padding-left: 40px;
+	font-size: 16px;
+	color: #FFFFFF;
+	float: left;
+	width: 100px;
+	height: 50px;
+	text-decoration: none;
+}
+.nav_list{
+	list-style: none;
+	width: 480px;
+	height: 60px;
+	margin-left: 250px;
+	
+}
+.nav_list li{
+	float: left;	
+	line-height: 60px;
+	text-align: center;
+	
+	
+}
+.nav_list li a{
+	color: #FFFFFF;
+	text-decoration: none;
+	transition: all .5s ease-in-out; 
+}
+.nav_list li a:hover{
+	color: #20c4f4;
+}
+.nav_list li+li{
+	padding-left: 65px;
+}
+#circle{
+	position: absolute;
+	right:-5px;
+	top:-8px;
+}
+#circle_shadow{
+	display: none;
+	/*transform:rotate(10deg);
+	-ms-transform:rotate(90deg); /* Internet Explorer */
+	/*-moz-transform:rotate(90deg); /* Firefox */
+	/*-webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+	/*-o-transform:rotate(90deg); /* Opera *//*/*/
+}
+#language{
+	float: right;
+	position: absolute;
+	right: 45px;
+	top: 20px;
+	cursor: pointer;
+	color: #fff;
+	font-size: 12px;
+}
+/***************************导航结束********************************/
+
+/***************************輪播圖開始********************************/
+/*#carousel_1{
+	height: 445px;
+	}
+#imglist{
+	width: 400px;
+	/*overflow: hidden;*/
+}
+/*#carousel_1 ul{
+	list-style: none;
+	overflow: hidden;
+}	
+#carousel_1 ul li{
+	float: left;
+	
+	list-style: none;
+	background-size: cover;
+	
+}*/
+
+
+
+
+
+
+/***************************輪播圖结束********************************/
+
+/***************************新闻开始********************************/
+/*.container-fluid .row .news{
+	height: 250px;}*/
+.container-fluid .row .col-md-3 .newspic img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.container-fluid .row .col-md-3 .newspic{
+	width: 100%;
+}
+.container-fluid .row .news{
+	 /*width:25%;*/
+    /*border:1px solid #ddd;*/
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 10px;
+    box-shadow:none ;
+    
+           margin-top: 0;
+}
+.container-fluid .row .news .new-content{
+	width:96%;
+	text-align: center;
+	 overflow: hidden;
+    margin-left: 16px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.container-fluid .row .news .new-content h2{
+	font-size: 20px;
+	font-family: "microsoft yahei";
+	color: #000000;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;}
+ .container-fluid .row .news .new-content p{
+ 	
+ 	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #9e9e9e;}
+/***************************新闻结束********************************/
+
+/***************************footer开始********************************/
+
+footer {
+	height: 66px;
+}
+footer #intro{
+	text-align: center;
+	line-height: 15px;
+	padding-top: 22px;
+}
+footer #intro a{
+	color: #666;
+}
+footer #intro a:link{
+	color: #666;
+	text-decoration: none;
+}
+
+
+
+
+
+/***************************footer结束********************************/
